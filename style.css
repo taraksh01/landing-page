@@ -122,15 +122,47 @@ code {
   font-weight: bold;
 }
 
-.article{
-    background-color: #e5e7eb;
-    color: #1f2937;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: lighter;
-    padding: 30px;
-    line-height: 1.4;
+.article {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 30px;
+  line-height: 1.4;
 }
+
+.random {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 30px;
+  padding: 34px;
+  border: 2px solid #1f2937;
+  border-radius: 12px;
+  color: #e5e7eb;
+  line-height: 1.5;
+  gap: 20px;
+}
+
+.random button {
+  background-color: #3882f6;
+  border: 1px solid #1f2937;
+  padding: 6px 16px;
+  border-radius: 6px;
+  flex: 1 0 100px;
+  max-width: 110px;
+}
+.random a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e5e7eb;
+}
+.random button:hover {
+    box-shadow: 4px 2px 3px #1f2937;
+    transform: scale(1.05);
+  }
 
 a {
   text-decoration: none;
