@@ -160,9 +160,24 @@ code {
   color: #e5e7eb;
 }
 .random button:hover {
-    box-shadow: 4px 2px 3px #1f2937;
-    transform: scale(1.05);
-  }
+  box-shadow: 4px 2px 3px #1f2937;
+  transform: scale(1.05);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  background-color: #1f2937;
+  height: 60px;
+}
+
+.footer a{
+    color: #e5e7eb;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 a {
   text-decoration: none;
